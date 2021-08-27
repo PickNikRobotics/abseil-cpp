@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>absl</name>
+  <version>0.0.1</version>
+  <description>ROS package of abseil-cpp.</description>
+  <maintainer email="tyler@picknik.ai">Tyler Weaver</maintainer>
+  <license>Apache</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
